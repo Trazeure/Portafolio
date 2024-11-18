@@ -263,7 +263,7 @@ useEffect(() => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center h-16">
             <span className={`text-xl font-bold ${themeClasses.text}`}>
-              Tu Nombre
+              Luis Angel Cordova Gil
             </span>
             
             <button 
@@ -363,7 +363,7 @@ useEffect(() => {
     {/* Contenedor principal con mayor espacio para el contenido */}
     <div className="flex flex-col items-center gap-12 mt-20">
       {/* Columna derecha - Tecnologías */}
-      <div className={`w-full mb-12 flex items-center justify-center text-4xl font-extrabold text-center tracking-wide ${isDark ? 'text-white' : 'text-black'}`}>          <TypewriterText           text={t.about.description}           speed={30}         />       </div>
+      <div className={`w-full mb-12 flex items-center justify-center text-4xl font-extrabold text-center tracking-wide ${isDark ? 'text-white' : 'text-black'}`}>          <TypewriterText           text={t.about.description}           speed={10}         />       </div>
       <div className="w-full md:w-2/3">
         <h3 className={`text-2xl font-bold mb-8 ${themeClasses.text}`}>
           {language === 'es' ? 'Tecnologías' : 'Technologies'}
