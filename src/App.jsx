@@ -11,7 +11,7 @@ const translations = {
     },
     hero: {
       greeting: "¡Hola! Soy ",
-      role: "Desarrollador Web & Diseñador"
+      role: "Ingeniero de Inteligencia Artificial y Científico de Datos"
     },
     about: {
       title: "Sobre mí",
@@ -332,7 +332,7 @@ useEffect(() => {
           <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 opacity-50 blur-md animate-border-pulse"></div>
           <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/20 backdrop-blur-sm">
             <img 
-              src="https://Trazeure.github.io/Portafolio/images/me.jpg"
+              src={`${import.meta.env.BASE_URL}me.jpg`}
               alt="Mi foto" 
               className="w-full h-full object-cover rounded-full transform hover:scale-105 transition-transform duration-500"
             />
